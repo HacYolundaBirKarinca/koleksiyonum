@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Mehmet Genç
-image: "assets/img/arkaplan.jpg"
+image: /koleksiyonum/assets/img/arkaplan.jpg
 ---
