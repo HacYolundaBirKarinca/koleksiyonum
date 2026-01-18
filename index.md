@@ -2,7 +2,7 @@
 layout: home
 title: Mehmet Genç Veri
 tagline: Mehmet Genç Biyografik Dokümanlar
-image: /koleksiyonum/assets/img/arkaplan.jpg
+image: assets/img/arkaplan.jpg
 ---
 
 <div class="row mb-5">
