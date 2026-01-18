@@ -1,0 +1,5 @@
+field,display_name,btn,hidden,sort_name
+date,Tarih,,,Date
+creator,Oluşturan,,
+subject,Konu,true
+location,Konum,true
