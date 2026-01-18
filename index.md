@@ -1,6 +1,6 @@
 ---
 layout: home-infographic
-title: Mehmet Genç Dijital Biyografi
-background: assets/img/arkaplan.png
+title: Mehmet Genç
+background: assets/img/arkaplan.jpeg
 ---
 
