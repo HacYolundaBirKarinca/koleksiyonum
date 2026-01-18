@@ -1,0 +1,13 @@
+field,display_name,browse_link
+title,Başlık,
+date,Tarih,true
+description,Açıklama,
+subject,Konular,true
+location,Konum,true
+creator,Oluşturan,true
+source,Kaynak,
+rights,Haklar,
+identifier,Tanımlayıcı,
+type,Tür,
+format,Format,
+language,Dil,
