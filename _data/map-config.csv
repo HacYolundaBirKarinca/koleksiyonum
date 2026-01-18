@@ -1,0 +1,5 @@
+display_name,field,search
+Başlık,title,true
+Tarih,date,true
+Konu,subject,true
+Konum,location,true
