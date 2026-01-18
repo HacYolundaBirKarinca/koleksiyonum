@@ -1,27 +1,32 @@
 ---
-title: About
+title: Hakkında
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
-# Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+## Mehmet Genç Dijital Biyografisi Hakkında
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+Bu çalışma, Mehmet Genç'in dijital biyografisi için hocamızın çalışma ve faaliyetlerini zaman ve mekan öğelerini dikkate alarak ve telif haklarına olabildiğince riayet ederek ortaya koymuştur.
 
-## About the Collection
+Proje üzerinde çalışılmaya devam edilecektir ve sizlerin de katkıları ile ikmal edilecektir.
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+### Çalışmaya Katkıda Bulunanlar
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+* Yunus Uğur
+* Fehmi Yılmaz
+* Fatma Aladağ
+* Büşranur Bekman
+* Beyza Topuz Demir
+* Özge Eda Kaya
+* Serpil Özcan
+* Emine Öztaner
+* Serhat Aslaner
+* Kenan Yıldız
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+---
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+<br>
+<small>Bu site, [GitHub Pages](https://pages.github.com/) üzerinde ücretsiz ve kolay dijital koleksiyonlar oluşturmayı sağlayan [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/) projesi kullanılarak hazırlanmıştır.</small>
