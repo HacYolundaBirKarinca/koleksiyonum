@@ -1,6 +1,6 @@
 ---
 layout: home-infographic
 title: Mehmet Genç
-background: assets/img/arkaplan.jpg
+image: assets/img/arkaplan.jpg
 ---
 
