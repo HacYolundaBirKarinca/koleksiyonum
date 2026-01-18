@@ -9,9 +9,9 @@ baseurl: "/koleksiyonum"
 source-code: "https://github.com/HacYolundaBirKarinca/koleksiyonum"
 
 # SITE AYARLARI
-title: "Mehmet Genç Veri"
-tagline: "Mehmet Genç Biyografik Dokümanlar"
-description: "Mehmet Genç'e dair biyografik verileri ihtiva eder"
+title: "Hac Yolunda Bir Karınca: Mehmet Genç"
+tagline: "Biyografik Veri"
+description: "Mehmet Genç'in dijital biyografisini oluşturan kronolojik veriyi ihtiva eder."
 author: "MehmetGencGonulluleri"
 
 # KOLEKSIYON AYARLARI
