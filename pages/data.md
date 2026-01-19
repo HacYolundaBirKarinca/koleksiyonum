@@ -1,13 +1,13 @@
 ---
 title: Data
-layout: data
+layout: veri
 permalink: /data.html
 # see _data/config-table.csv for table display options
 # a table visualization will be added below the content in this file
 ---
 
-## Collection Metadata
+# Koleksiyon Verisi
 
-The table below provides sorting and basic search of the collection contents. 
-Use the "CSV" or "Excel" button below to download the filtered metadata you see on the page in your preferred format. 
-Alternatively, click the "Download" button at the top right to view the full collection metadata in various export formats. 
+Aşağıdaki tablo, koleksiyon içeriğinde sıralama ve temel arama yapmanızı sağlar.
+Sayfanın altındaki **CSV** veya **Excel** düğmelerini kullanarak filtrelenmiş veriyi
+tercih ettiğiniz formatta indirebilirsiniz.
