@@ -15,7 +15,7 @@ Dosya yükleme işlemi içeren formumuz, veri güvenliği nedeniyle Google Forms
 <div style="text-align: center; padding: 40px; background-color: #f8f9fa; border-radius: 10px; border: 1px solid #e9ecef;">
   
   <h3 style="margin-top: 0;">Veri Giriş Formu</h3>
-  <p>Belge, fotoğraf veya video yüklemek için formu yeni sekmede açın.</p>
+  <p>Hatıra yazmak, öneride bulunmak, belge, fotoğraf veya video yüklemek için formu yeni sekmede açın.</p>
   
   <br>
 
