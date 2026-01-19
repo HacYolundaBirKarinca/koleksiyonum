@@ -1,8 +1,8 @@
 ---
-title: Timeline
+title: Zaman Çizelgesi
 layout: timeline
 permalink: /timeline.html
 # a timeline visualization will be added below the content in this file
 ---
 
-## Collection Timeline
+## Koleksiyon Zaman Çizelgesi
