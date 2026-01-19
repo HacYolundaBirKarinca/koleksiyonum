@@ -25,7 +25,9 @@
 <script>
     /* subject terms + count */
     var terms = [
-        {% for u in uniqueTerms %}{% assign count = terms | where_exp: 'item', 'item == u' | size %}{% if count >= termsMin %}[ {{ u | jsonify }}, {{ count }}],{% endif %}{% endfor %}[]
+        {% for u in uniqueTerms %}
+        {%- if u contains "Gonullusu" or u contains "Gönüllüsü" -%}{%- continue -%}{%- endif -%}
+        {% assign count = terms | where_exp: 'item', 'item == u' | size %}{% if count >= termsMin %}[ {{ u | jsonify }}, {{ count }}],{% endif %}{% endfor %}[]
     ];
     terms = terms.slice(0,-1);
 
