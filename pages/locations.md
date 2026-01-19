@@ -1,5 +1,5 @@
 ---
-title: Locations
+title: Yerler
 layout: cloud
 permalink: /locations.html
 # Default locations page is configured in "_data/theme.yml"
@@ -8,7 +8,7 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Browse Locations
+## Yerlere Göz At
 
-Use this word cloud visualization to browse locations.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Bu kelime bulutu görselleştirmesini kullanarak konumları tarayın.
+Kelime boyutu sıklığa göre belirlenir ve tüm kelimeler ilgili koleksiyon aramasına bağlanır.
