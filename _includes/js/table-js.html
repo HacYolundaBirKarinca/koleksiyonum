@@ -1,31 +1,54 @@
-{% assign fcount = site.data.config-table | size %}
-{% comment %}load DataTables with jquery bundled{% endcomment %}
-<script type="text/javascript" language="javascript" src="{{ '/assets/lib/datatables/datatables.min.js' | relative_url }}"></script>
 <script>
-/* initialize DataTables using jquery */
 $(document).ready( function () {
     $('#item-table').DataTable( {
-        // use DataTables ajax load to 
-        ajax: { url: '{{ "/assets/js/metadata.min.json" | relative_url }}', dataSrc: 'objects' },
-        // defer render to speed up large sets
+        ajax: { 
+            url: '{{ "/assets/js/metadata.min.json" | relative_url }}', 
+            dataSrc: 'objects' 
+        },
         "deferRender": true,
-        // enable pagination 
         "paging": true,
-        "lengthMenu": [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
-        // add download features
+        "lengthMenu": [[ 25, 50, 100, -1], [ 25, 50, 100, "Tümü"]],
+
         dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>', 
         buttons: [ 'excelHtml5', 'csvHtml5' ],
-        // set up the columns from the json
-        columns: [ {% for i in (0..fcount) %}{ data: '{{ i }}' }{% unless forloop.last %},{% endunless %}{% endfor %} ],
-        columnDefs: [ 
-            // turn relative link into absolute
-            { "render": function ( data ) { return '{{ site.url }}' + data; },"targets": {{ fcount }} },
-            // combine link with first column
-            { "render": function ( data, type, row ) { return '<a href="' + row['{{ fcount }}'] +'">'+ data +'</a>'; },"targets": 0 },
-            // hide the link column
-            { "visible": false,  "targets": [ {{ fcount }} ] }
+
+        language: {
+            search: "Ara:",
+            lengthMenu: "_MENU_ kayıt göster",
+            info: "_TOTAL_ kayıttan _START_–_END_ arası gösteriliyor",
+            infoEmpty: "Gösterilecek kayıt yok",
+            zeroRecords: "Eşleşen kayıt bulunamadı",
+            paginate: {
+                first: "İlk",
+                last: "Son",
+                next: "İleri",
+                previous: "Geri"
+            }
+        },
+
+        columns: [
+          {% for i in (0..fcount) %}
+            { data: '{{ i }}' }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
         ],
-        // sort based on the second column
+        columnDefs: [ 
+            { 
+              "render": function ( data ) { 
+                  return '{{ site.url }}' + data; 
+              },
+              "targets": {{ fcount }} 
+            },
+            { 
+              "render": function ( data, type, row ) { 
+                  return '<a href="' + row['{{ fcount }}'] +'">'+ data +'</a>'; 
+              },
+              "targets": 0 
+            },
+            { 
+              "visible": false,  
+              "targets": [ {{ fcount }} ] 
+            }
+        ],
         order: [[ 1, "asc" ]]
     });
 });
