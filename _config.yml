@@ -23,3 +23,6 @@ metadata: collection_metadata
 exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md]
 sass:
   style: compressed
+
+# Konu bulutunda görünmesi istenmeyen kelimeler
+subject_stopwords: "MGenc Gonullusu"
