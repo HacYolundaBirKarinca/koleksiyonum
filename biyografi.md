@@ -4,6 +4,8 @@ layout: page
 permalink: /biyografi.html
 ---
 
+**MEHMET GENÇ, 1934-2021**
+
 **Çocukluk ve Aile**
 
 Mehmet Genç, 4 Mayıs 1934 tarihinde Artvin'in Arhavi ilçesinde ailesinin yedinci çocuğu olarak dünyaya gelir. Ali Rıza Bey’in yedi çocuğundan en küçüğü olan Genç çocukluğunu abla ve abilerinin şevkat ve ilgisi içerisinde geçirir.
@@ -102,5 +104,6 @@ Mehmet Genç, American Research Institute in Turkey (ARIT) yönetim kurulu üyes
 Mehmet Genç'in yaklaşık 60 yılda bir araya getirdiği, 15 bin ciltlik şahsi araştırma kütüphanesi ve arşiv dosyaları ailesi tarafından Cumhurbaşkanlığı Millet Kütüphanesi'ne bağışlanmıştır.
 
 Genç’in Osmanlı arşivlerinden araştırmalarıyla alakalı topladığı vesikalar ve bu vesikalara dair tuttuğu notları konularına göre ayrılmış klasörler içinde bulunmaktadır. Söz konusu bu arşiv Cumhurbaşkanlığı ile yapılan protokol gereği öncelikle dijital hale getirilecek, katalog çalışması yapılacak ve ardından araştırmacıların hizmetine sunulacaktır.
+
 ---
 <small>Kaynak: [Marmara Üniversitesi Mehmet Genç İTAM](https://mehmetgencitam.marmara.edu.tr/biyografi)</small>
