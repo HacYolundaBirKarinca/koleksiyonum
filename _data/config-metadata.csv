@@ -1,16 +1,17 @@
 field,display_name,browse_link,external_link
 title,Başlık
 creator,Oluşturan
-date,Oluşturma Tarih,
+date,Tarih,
 description,Açıklama,
 subject,Konular,true
-location,Konum
+location,Yer
 latitude,Enlem
 longitude,Boylam
 source,Kaynak
 identifier,Kaynak İsmi,,
 type,Türü,
 format,Format,
-rights,Telif Hakkı,
+rights,Telif Hakkı/Linki,
 rightsstatement,Telif Link,,true
+
 
