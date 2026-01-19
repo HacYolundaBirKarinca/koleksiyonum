@@ -9,22 +9,18 @@ credits: false
 
 ## Mehmet Genç Dijital Biyografisi Hakkında
 
-Bu çalışma, Mehmet Genç'in dijital biyografisi için hocamızın çalışma ve faaliyetlerini zaman ve mekan öğelerini dikkate alarak ve telif haklarına olabildiğince riayet ederek ortaya koymuştur.
+Bu çalışma, hocamız Mehmet Genç'in çalışmalarını, faaliyetlerini ve hatırasını, zaman ve mekân unsurlarını dikkate alarak ve telif haklarına riayet ederek 'dijital biyografi' formatında bir araya getirmeyi amaçlamaktadır.
 
-Proje üzerinde çalışılmaya devam edilecektir ve sizlerin de katkıları ile ikmal edilecektir.
+Kitle kaynak usulüyle (crowdsourcing) yani herkesin katkısı ile zenginleşecek olan bu portal yaşayan bir proje olarak tasarlanmıştır. Çalışmalarımız devam etmekte olup, mevcut eksiklikler sizlerin değerli katkılarıyla tamamlanacaktır.
 
-### Çalışmaya Katkıda Bulunanlar
+Projenin ilk aşaması, hocamızın vefatının hemen akabinde, 2021 yılına kadar olan verileri kapsayacak şekilde Digital Ottoman Studies ekibi (Yunus Uğur, Fatma Aladağ, Büşranur Bekman, Beyza Topuz Demir, Serpil Özcan, Emine Öztaner, Özge Eda Kaya) tarafından hazırlanmıştır. Süreç, Fehmi Yılmaz, Kahraman Şakul, Abdulhamit Kırmızı, Serhat Aslaner, Kenan Yıldız ve İsmail Hakkı Kadı gibi kıymetli isimlerin katkılarıyla genişlemiştir.
 
-* Yunus Uğur
-* Fehmi Yılmaz
-* Fatma Aladağ
-* Büşranur Bekman
-* Beyza Topuz Demir
-* Özge Eda Kaya
-* Serpil Özcan
-* Emine Öztaner
-* Serhat Aslaner
-* Kenan Yıldız
+2021 sonrası veriler ile eksik kalan kısımların derlenmesi ve wen portalına aktarılması süreci ise Marmara Üniversitesi Mehmet Genç İktisat Tarihi Çalışmaları Araştırma ve Uygulama Merkezi ile Dijital Beşeri Bilimler Uygulama ve Araştırma Merkezi ekiplerince yürütülmektedir.
+
+Bu sürece dahil olan tüm isimleri kısaca 'Mehmet Genç Gönüllüleri' olarak adlandırıyoruz. Şimdiye kadar emeği geçen ve bundan sonra da katkı sunacak olan tüm Mehmet Genç Gönüllülerine şükranlarımızla...
+
+İletişim ve Katkı: Mehmet Hoca ile ilgili hatıra, belge veya görsel arşivinizi paylaşmak isterseniz hacyolundabirkarinca@gmail.com adresi üzerinden bize ulaşabilirsiniz.
+Web sitesindeki verilerle ilgili düzeltme önerilerinizi veya görüşlerinizi de aynı e-posta adresi üzerinden iletebilirsiniz; bildirimleriniz en kısa sürede değerlendirilerek sisteme yansıtılacaktır. İş birliğiniz ve katkılarınız için şimdiden teşekkür ederiz.
 
 ---
 
