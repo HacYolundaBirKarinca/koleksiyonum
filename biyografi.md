@@ -4,7 +4,7 @@ layout: page
 permalink: /biyografi.html
 ---
 
-**MEHMET GENÇ, 1934-2021**
+**MEHMET GENÇ, 4 Mayıs 1934-18 MArt 2021**
 
 **Çocukluk ve Aile**
 
