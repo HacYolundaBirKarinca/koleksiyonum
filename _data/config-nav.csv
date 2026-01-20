@@ -1,10 +1,11 @@
 display_name,stub,dropdown_parent
-Ana Sayfa,/
-Biyografi,biyografi.html,,
-Göz At,/browse.html
-Harita,/map.html
-Zaman Çizelgesi,/timeline.html
-Veri Tabanı,/data.html
-Konular,/subjects.html
-Yerler,/locations.html
+AnaSayfa,/
+Hayatı,biyografi.html,,
+Keşfet,/browse.html
+Coğrafyası,/map.html
+Tarihi,/timeline.html
+Envanter,/data.html
+Konuları,/subjects.html
+Yerleri,/locations.html
 Paylaş,katki.html,,
+Hakkında,/about.html
