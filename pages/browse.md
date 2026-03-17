@@ -486,6 +486,7 @@ function getFiltered(){
 
 // ── 7. Render ──
 function render(){
+  window._kesfetReady = true;
   const filtered = getFiltered();
   const content = document.getElementById('kesfet-content');
   const empty = document.getElementById('kesfet-empty');
@@ -609,8 +610,18 @@ document.querySelectorAll('.ktab').forEach(btn => {
 
 document.getElementById('kesfet-search').addEventListener('input', function(){
   searchQ = this.value.trim();
+  window._kesfetSearchQ = searchQ;
   render();
 });
+
+// Global arama fonksiyonu — IIFE dışından çağrılabilir
+window.kesfetSearch = function(term){
+  searchQ = term;
+  window._kesfetSearchQ = term;
+  var inp = document.getElementById('kesfet-search');
+  if(inp) inp.value = term;
+  render();
+};
 
 document.getElementById('kesfet-sort').addEventListener('change', function(){
   sortMode = this.value;
@@ -628,29 +639,19 @@ function applyHashToSearch(){
   if(!rawHash || rawHash.length <= 1) return;
   var term = decodeURIComponent(rawHash.substring(1)).trim();
   if(!term) return;
-  var inp = document.getElementById('kesfet-search');
-  if(!inp) return;
-  inp.value = term;
-  // searchQ ve render global scope'dan erişilemez (IIFE içinde)
-  // Bu yüzden input event'i tetikle — browse.md'deki listener yakalar
-  inp.dispatchEvent(new Event('input'));
+  // window.kesfetSearch hazır olana kadar bekle
+  var attempts = 0;
+  var iv = setInterval(function(){
+    attempts++;
+    if(typeof window.kesfetSearch === 'function'){
+      clearInterval(iv);
+      window.kesfetSearch(term);
+    } else if(attempts > 30){
+      clearInterval(iv);
+    }
+  }, 150);
 }
 
-// Sayfa yüklenince: metadata hazır olana kadar bekle
-window.addEventListener('load', function(){
-  // metadata.json fetch async, kısa bekleme
-  var attempts = 0;
-  var interval = setInterval(function(){
-    attempts++;
-    var inp = document.getElementById('kesfet-search');
-    // Eğer veri yüklendiyse (count gösteriliyor)
-    var count = document.getElementById('kesfet-count');
-    if((count && count.textContent) || attempts > 20){
-      clearInterval(interval);
-      applyHashToSearch();
-    }
-  }, 200);
-});
-
+window.addEventListener('load', applyHashToSearch);
 window.addEventListener('hashchange', applyHashToSearch);
 </script>
