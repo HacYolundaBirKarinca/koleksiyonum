@@ -516,6 +516,8 @@ function render(){
 
   // Filtre sayaçlarını güncelle
   updateFilterCounts(filtered);
+  // Veri hazır sinyali — hash araması için
+  if(allItems.length) window._kesfetDataReady = true;
 }
 
 function makeGrid(items){
