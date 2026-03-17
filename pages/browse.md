@@ -594,10 +594,25 @@ document.getElementById('kesfet-search').addEventListener('input', function(){
 
 // Global arama fonksiyonu — IIFE dışından çağrılabilir
 window.kesfetSearch = function(term){
-  if(!allItems.length) return; // veri henüz yüklenmediyse çıkış yok
+  if(!allItems.length) return;
   searchQ = term;
   var inp = document.getElementById('kesfet-search');
   if(inp) inp.value = term;
+  render();
+};
+
+// Global sekme aktive etme fonksiyonu
+window.kesfetActivateTab = function(tabName){
+  if(!allItems.length) return;
+  activeTop = tabName;
+  searchQ = '';
+  var inp = document.getElementById('kesfet-search');
+  if(inp) inp.value = '';
+  // Sekme butonunu aktive et
+  document.querySelectorAll('.ktab').forEach(function(btn){
+    btn.classList.remove('active');
+    if(btn.getAttribute('data-top') === tabName) btn.classList.add('active');
+  });
   render();
 };
 
@@ -615,15 +630,25 @@ document.getElementById('kesfet-sort').addEventListener('change', function(){
 function applyHashToSearch(){
   var rawHash = window.location.hash;
   if(!rawHash || rawHash.length <= 1) return;
-  var term = decodeURIComponent(rawHash.substring(1)).trim();
-  if(!term) return;
-  // kesfetSearch ve allItems hazır olana kadar bekle
+  var hash = decodeURIComponent(rawHash.substring(1)).trim();
+  if(!hash) return;
   var attempts = 0;
   var iv = setInterval(function(){
     attempts++;
     if(typeof window.kesfetSearch === 'function' && window._kesfetDataReady){
       clearInterval(iv);
-      window.kesfetSearch(term);
+      if(hash.indexOf('tab:') === 0){
+        // Sekme aktive et: tab:Akademik
+        var tabName = hash.substring(4);
+        window.kesfetActivateTab(tabName);
+      } else if(hash.indexOf('search:') === 0){
+        // Tür araması: search:Video
+        var searchTerm = hash.substring(7);
+        window.kesfetSearch(searchTerm);
+      } else {
+        // Normal konu araması
+        window.kesfetSearch(hash);
+      }
     } else if(attempts > 40){
       clearInterval(iv);
     }
