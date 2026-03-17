@@ -486,7 +486,6 @@ function getFiltered(){
 
 // ── 7. Render ──
 function render(){
-  window._kesfetReady = true;
   const filtered = getFiltered();
   const content = document.getElementById('kesfet-content');
   const empty = document.getElementById('kesfet-empty');
@@ -616,8 +615,8 @@ document.getElementById('kesfet-search').addEventListener('input', function(){
 
 // Global arama fonksiyonu — IIFE dışından çağrılabilir
 window.kesfetSearch = function(term){
+  if(!allItems.length) return; // veri henüz yüklenmediyse çıkış yok
   searchQ = term;
-  window._kesfetSearchQ = term;
   var inp = document.getElementById('kesfet-search');
   if(inp) inp.value = term;
   render();
@@ -639,14 +638,14 @@ function applyHashToSearch(){
   if(!rawHash || rawHash.length <= 1) return;
   var term = decodeURIComponent(rawHash.substring(1)).trim();
   if(!term) return;
-  // window.kesfetSearch hazır olana kadar bekle
+  // kesfetSearch ve allItems hazır olana kadar bekle
   var attempts = 0;
   var iv = setInterval(function(){
     attempts++;
-    if(typeof window.kesfetSearch === 'function'){
+    if(typeof window.kesfetSearch === 'function' && window._kesfetDataReady){
       clearInterval(iv);
       window.kesfetSearch(term);
-    } else if(attempts > 30){
+    } else if(attempts > 40){
       clearInterval(iv);
     }
   }, 150);
