@@ -386,29 +386,6 @@ fetch(BASE + '/assets/data/metadata.json')
     console.log('Yüklenen kayıt:', allItems.length);
     buildFilters();
     render();
-    // URL hash'i yakala — subjects/locations sayfasından yönlendirme
-    (function(){
-      var rawHash = window.location.hash;
-      if(rawHash && rawHash.length > 1){
-        var term = decodeURIComponent(rawHash.substring(1)).trim();
-        if(term){
-          var inp = document.getElementById('kesfet-search');
-          inp.value = term;
-          searchQ = term;
-          render();
-          inp.scrollIntoView({behavior:'smooth', block:'center'});
-        }
-      }
-    // Hash değişince de ara
-window.addEventListener('hashchange', function(){
-  var term = decodeURIComponent(window.location.hash.substring(1)).trim();
-  if(term){
-    var inp = document.getElementById('kesfet-search');
-    inp.value = term;
-    searchQ = term;
-    render();
-  }
-});
   })
   .catch(e => {
     document.getElementById('kesfet-content').innerHTML =
