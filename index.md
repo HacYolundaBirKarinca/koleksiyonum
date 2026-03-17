@@ -447,7 +447,7 @@ body > header { display: none !important; }
       src="https://hacyolundabirkarinca.github.io/mgenc/objects/kenanyildiz.jpg"
       alt="Mehmet Genç arşivde">
     <img class="mghero-photo photo-3"
-      src="https://hacyolundabirkarinca.github.io/mgenc/objects/yedikıta.jpg"
+      src="https://hacyolundabirkarinca.github.io/mgenc/objects/yedikita.jpg"
       alt="Mehmet Genç kitaplığında">
     <img class="mghero-photo photo-4"
       src="https://hacyolundabirkarinca.github.io/mgenc/objects/odessa2.jpg"
@@ -556,7 +556,7 @@ body > header { display: none !important; }
     <p class="mg-section-sub">Koleksiyonu üç ana kapıdan keşfedebilirsiniz.</p>
     <div class="mg-portal-grid">
 
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html" class="mg-portal-card">
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#tab:Akademik" class="mg-portal-card">
         <div class="mg-portal-icon">📚</div>
         <div class="mg-portal-name">Akademik Üretim</div>
         <p class="mg-portal-desc">Konferans bildirileri, makaleler, kitap bölümleri ve söyleşiler. Yarım asrın entelektüel birikimi.</p>
@@ -568,7 +568,7 @@ body > header { display: none !important; }
         <div class="mg-portal-count"><span>229 kayıt</span><span class="mg-portal-arrow">→</span></div>
       </a>
 
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html" class="mg-portal-card">
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#tab:Görsel Arşiv" class="mg-portal-card">
         <div class="mg-portal-icon">🖼️</div>
         <div class="mg-portal-name">Görsel Arşiv</div>
         <p class="mg-portal-desc">Fotoğraflar ve video kayıtları. Çalıştaylar, dersler, söyleşiler ve özel anlar.</p>
@@ -579,7 +579,7 @@ body > header { display: none !important; }
         <div class="mg-portal-count"><span>114 kayıt</span><span class="mg-portal-arrow">→</span></div>
       </a>
 
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html" class="mg-portal-card">
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#tab:Biyografik" class="mg-portal-card">
         <div class="mg-portal-icon">👤</div>
         <div class="mg-portal-name">Biyografik</div>
         <p class="mg-portal-desc">Aile arşivi, hayat hikâyesi, vefeyat yazıları ve anma metinleri.</p>
@@ -598,17 +598,17 @@ body > header { display: none !important; }
     <div class="mg-section-label">Koleksiyon Özeti</div>
     <h2 class="mg-section-title">442 Kayıt, Bir Ömür</h2>
     <div class="mg-data-grid">
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html" class="mg-data-card">
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#search:Döküman" class="mg-data-card">
         <div class="mg-data-icon">📄</div>
         <div class="mg-data-num">122</div>
         <div class="mg-data-label">PDF / Belge</div>
       </a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html" class="mg-data-card">
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#search:Görüntü" class="mg-data-card">
         <div class="mg-data-icon">🖼</div>
         <div class="mg-data-num">267</div>
         <div class="mg-data-label">Fotoğraf & Görsel</div>
       </a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html" class="mg-data-card">
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#search:Video" class="mg-data-card">
         <div class="mg-data-icon">▶</div>
         <div class="mg-data-num">53</div>
         <div class="mg-data-label">Video</div>
@@ -627,21 +627,21 @@ body > header { display: none !important; }
     <h2 class="mg-section-title">Öne Çıkan Temalar</h2>
     <p class="mg-section-sub">Koleksiyonda en sık karşılaşılan kavramlar ve izlekler.</p>
     <div class="mg-topic-cloud">
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag large">İktisat</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag large">Konferans</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag medium">Tarihçilik</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag medium">Devlet</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag medium">Ticaret</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag medium">18. Yüzyıl</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag medium">Maliye</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">Biyografi</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">Vergi</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">İktisadi Düşünce</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">Vakıflar</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">Arşiv</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">19. Yüzyıl</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">Kişiler</a>
-      <a href="https://hacyolundabirkarinca.github.io/mgenc/subjects.html" class="mg-topic-tag small">Sanayii</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#İktisat" class="mg-topic-tag large">İktisat</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Konferans" class="mg-topic-tag large">Konferans</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Tarihçilik" class="mg-topic-tag medium">Tarihçilik</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Devlet" class="mg-topic-tag medium">Devlet</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Ticaret" class="mg-topic-tag medium">Ticaret</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#18. Yüzyıl" class="mg-topic-tag medium">18. Yüzyıl</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Maliye" class="mg-topic-tag medium">Maliye</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Biyografi" class="mg-topic-tag small">Biyografi</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Vergi" class="mg-topic-tag small">Vergi</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#İktisadi Düşünce" class="mg-topic-tag small">İktisadi Düşünce</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Vakıflar" class="mg-topic-tag small">Vakıflar</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Arşiv" class="mg-topic-tag small">Arşiv</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#19. Yüzyıl" class="mg-topic-tag small">19. Yüzyıl</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Kişiler" class="mg-topic-tag small">Kişiler</a>
+      <a href="https://hacyolundabirkarinca.github.io/mgenc/browse.html#Sanayii" class="mg-topic-tag small">Sanayii</a>
     </div>
   </div>
 </section>
