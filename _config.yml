@@ -28,5 +28,8 @@ sass:
 subject_stopwords: "Mehmet Genç Gönüllüsü"
 
 # Arama motoru ayarları
+google-analytics-id: G-V5SJG9JTCH
+
+
 # Buraya eklediğiniz her sütun arama kutusunda sorgulanabilir hale gelir.
 lunr-index-fields: [title, subject, description, creator, location, date, rights, source]
